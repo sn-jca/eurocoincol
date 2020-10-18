@@ -15,4 +15,5 @@ npm is also required.
 - Go to resources/static folder
 - do : npm install
 - Go to root folder and do : mvnw spring-boot:run
+- go to localhost:8080 (if configuration has not been changed)
 
