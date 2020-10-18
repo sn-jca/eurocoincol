@@ -6,8 +6,8 @@ A MySQL database is required (data source url and credentials need to be changed
 npm is also required.
 
 ## Stack 
-Back-end = Spring boot, Web MVC, JPA-hibernate, mySQL database, Thymeleaf (template engine) -- appli launched with maven Spring boot plugin
-Front-end = HTML, JS, bootstrap, datatables (all dependencies listed in package.json under resources folder) -- dependencies installed with npm
+- Back-end = Spring boot, Web MVC, JPA-hibernate, mySQL database, Thymeleaf (template engine) -- appli launched with maven Spring boot plugin
+- Front-end = HTML, JS, bootstrap, datatables (all dependencies listed in package.json under resources folder) -- dependencies installed with npm
 
 ## How to run the project 
 - run your mySQL instance (local instance or docker instance) 
