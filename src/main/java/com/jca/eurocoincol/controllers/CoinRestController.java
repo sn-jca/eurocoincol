@@ -49,4 +49,10 @@ public class CoinRestController {
                 HttpStatus.NOT_FOUND, "no coin has been found for id :" + id
         );
     }
+
+    @DeleteMapping("/coin/{id}")
+    void deleteCoin(@PathVariable int id) {
+        coinRepository.deleteById(id);
+    }
+
 }
